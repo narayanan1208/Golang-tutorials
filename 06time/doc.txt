@@ -1,0 +1,9 @@
+Memory management
+
+new() - Allocate memory but not initialized, you will get a memmory address, gives a zeroed storage(no data can be added).
+make() - Allocated and initialized, same as new(), non-zeroed storages.
+
+Garbage collection happens automatically
+Anything that is out of scope or nil is eligible for GC
+GOGC variable sets the initial GC target percentage.
+default GOGC=100, setting GOGC=off disables GC entirely.
