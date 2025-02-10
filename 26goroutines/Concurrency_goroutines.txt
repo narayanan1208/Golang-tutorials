@@ -1,0 +1,6 @@
+Concurrency is the management of multiple tasks at once, while parallelism is the execution of multiple tasks at the same time. 
+While concurrency focuses on managing multiple tasks efficiently with one resource, parallelism utilizes multiple resources to execute tasks simultaneously, making processes faster.
+Concurrency is about juggling tasks, and parallelism is about teamwork to achieve tasks concurrently.
+
+Thread is managed by OS and fixed stack is 1MB.
+Goroutines are managed by go runtime and flexible stack is 2KB.
